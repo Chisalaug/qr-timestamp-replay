@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+
+# 运行时生成的二维码与导出清单
+*.png
+*.jpg
+!docs/**/*.png
+qr_order_*.txt
+
+# 样本素材目录（不提交他人扫描件）
+samples/
+图片/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.iml
+
+# 系统文件
+Thumbs.db
+.DS_Store
